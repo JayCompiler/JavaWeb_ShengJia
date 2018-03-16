@@ -1,0 +1,279 @@
+@CHARSET "UTF-8";
+*{
+	padding:0px;
+	margin:0px;
+}
+/**
+整体样式：布局：左边 菜单，右边显示
+*/
+a {
+	text-decoration: none;
+}
+
+/*未点击过的链接*/
+#menu a:link {
+	color: #ffffff;
+	text-decoration: none
+}
+/*已点击过的链接*/
+#menu a:visited {
+	color: #ffffff;
+	text-decoration: none
+}
+/*鼠标停留在上面的链接*/
+#menu a:hover {
+	color: #ffffff;
+	text-decoration: none
+}
+/*当前激活的链接*/
+#menu a:active {
+	color: #ffffff;
+	text-decoration: none
+}
+
+@font-face {
+	font-family: mtcorsva;
+	src: url('../font/mtcorsva.ttf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: impact;
+	src: url('../font/impact.ttf');
+}
+
+@font-face {
+	font-family: mvboli;
+	src: url('../font/mvboli.ttf');
+}
+
+@font-face {
+	font-family: georgia;
+	src: url('../font/georgia.ttf');
+}
+
+body {
+	box-sizing: border-box;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+}
+
+#main{
+	box-sizing: border-box;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#menu {
+	box-sizing: border-box;
+	background: #999999;
+	height: 100%;
+	width: 10%;
+	left: 0%;
+	float: left;
+}
+#nav0 {
+	position: absolute;
+	top: 1%;
+}
+
+
+#nav1 {
+	position: absolute;
+	top: 16%;
+}
+
+#nav2 {
+	position: absolute;
+	top: 30%;
+}
+
+#nav3 {
+	position: absolute;
+	top: 44%;
+}
+
+#nav4 {
+	position: absolute;
+	top: 58%;
+}
+
+#nav5 {
+	position: absolute;
+	top: 72%;
+}
+#nav6 {
+	position: absolute;
+	top: 86%;
+}
+
+.nav_list {
+	box-sizing: border-box;
+	padding-top: 2%;
+	background: #262626;
+	left: 0.5%;
+	text-align: center;
+	font-size: 27px;
+	height: 13%;
+	width: 9%;
+}
+
+#content {
+	box-sizing: border-box;
+	height: 100%;
+	width: 90%;
+	background: url(/ShengJia/img/bg.jpg);
+	background-repeat: repeat;
+	background-size:100%,100%;
+	float: right;
+}
+
+#select {
+	box-sizing: border-box;
+	padding-left: 90%;
+	padding-top: 2%;
+	width: 100%;
+	height: 10%;
+}
+
+/**
+个别页面特定样式
+1.联系我们
+*/
+#title {
+	box-sizing: border-box;
+	height: 9%;
+	width: 100%;
+	text-align: center;
+
+/* 	border:solid;
+ */}
+
+#content1 {
+	box-sizing: border-box;
+	height: 81%;
+	width: 100%;
+}
+
+#lc {
+	box-sizing: border-box;
+	height: 100%;
+	width: 50%;
+	padding-left: 10%;
+	padding-top:5%;
+	float: left;
+}
+
+#rc {
+	box-sizing: border-box;
+	padding-right: 6%;
+	padding-top:5%;
+	float: right;
+	height: 100%;
+	width: 50%;
+}
+
+
+
+
+
+
+/**
+2.成功案例
+*/
+#dSuc {
+	box-sizing: border-box;
+	height: 66%;
+	width: 100%;
+	padding-top: 4%;
+
+}
+
+#right{
+	box-sizing: border-box;
+	height: 100%;
+	width: 95%;
+	float:right
+	
+}
+#lbt{
+	box-sizing: border-box;
+	height: 100%;
+	width: 5%;
+	padding-top:7%;
+	float:left;
+}
+#list{
+	box-sizing: border-box;
+	height: 100%;
+	width: 90%;
+	float:left;
+}
+
+#rbt{
+	box-sizing: border-box;
+	height: 100%;
+	width: 5%;
+	float:right;
+	padding-top:7%;
+	
+}
+
+
+.lr {
+	height: 60px;
+	width: 60px;
+}
+
+
+
+
+
+
+#foot {
+	box-sizing: border-box;
+	height: 4%;
+	width: 100%;
+/* 	border:solid;
+ */}
+/**
+成功案例详细信息
+*/
+#sd {
+	box-sizing: border-box;
+	height: 15%;
+	width: 100%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+/* 	border: solid;
+ */}
+
+
+
+/* 控制内容显示 */
+#intro {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	font-family: mvboli;
+	font-size: 15px;
+	text-indent: 2em; /*首行缩进*/
+	text-overflow: ellipsis; /**/
+	text-align: justify;
+	overflow: hidden;
+}
+/*关于我们,服务项目*/
+#intro1 {
+	box-sizing: border-box;
+	width: 100%;
+	height: 78%;
+	font-family: mvboli;
+	font-size: 20px;
+	text-indent: 2em; /*首行缩进*/
+	text-overflow: ellipsis; /**/
+	text-align: justify;
+	overflow: hidden;
+	padding-left:1%;
+}

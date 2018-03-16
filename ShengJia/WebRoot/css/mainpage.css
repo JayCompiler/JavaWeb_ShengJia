@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+/* * {
+	margin: 0%;
+	padding: 0%;
+}
+ */
+/*  div{
+ 	border: solid;
+	border-width: 0.1px;
+	border-color: #c0c0c0;
+	
+ } */
+#main {
+	box-sizing: border-box;
+	position: absolute;
+	background: url(/ShengJia/img/bg.jpg); background-repeat : repeat;
+	height: 100%;
+	width: 100%;
+	background-repeat: repeat;
+}
+
+#top {
+	box-sizing: border-box;
+/* 	background: #34c5de;
+ */	
+	padding-top: 2%;
+	height: 20%;
+	width: 100%;
+	
+/* 	background: #808080;
+ */}
+
+#bottom {
+	box-sizing: border-box;
+	height: 80%;
+	width: 100%;
+	
+	/* background: #808040; */
+}
+
+#news {
+	box-sizing: border-box;
+/* 	background: #ff8000;
+*/
+ 	height: 100%;
+	width: 33%;
+	float：left;
+}
+
+#right {
+	box-sizing: border-box;
+/* 	background: #8080ff;
+ */
+ 	height: 100%;
+	width: 67%;
+	float：right;
+}
+
+#active {
+	box-sizing: border-box;
+/* 	background: #000000;
+ */	
+ 	height: 100%;
+	width: 50%;
+	float：left;
+}
+
+#inf {
+	
+	box-sizing: border-box;
+/* 	background: #ff0000;
+ */	height: 100%;
+	width: 50%;
+	float：right;
+}
+.content{
+	box-sizing: border-box;
+	border-left-color:#ff0080;
+	border:solid;
+	border-width:thin;
+	height:80%;
+	margin-right:3%;
+ margin-left:2%;
+}
+.foot{
+	box-sizing: border-box;
+	height:20%;
+	text-align: right;
+	font-size: 20px;
+/* 	background: #c0c0c0;
+ */	
+}
+
+li{
+	padding-left:10%;
+	padding-top:4%;
+	list-style:none;
+	font-size: 20px;
+}

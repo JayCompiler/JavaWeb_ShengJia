@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+ div{
+ /* 	border: solid;
+	border-width: 0.1px; */
+	border-color: #c0c0c0;
+	
+ }
+#main {
+	box-sizing: border-box;
+	position: absolute;
+	background: url(/ShengJia/img/bg.jpg); background-repeat : repeat;
+	height: 100%;
+	width: 100%;
+	background-repeat: repeat;
+}
+
+#select{
+	box-sizing: border-box;
+	height: 5%;
+	width: 100%;
+	font-style: normal;
+	font-size: 20px;
+	padding-left:95%;
+	position: absolute;
+}
+#title {
+	box-sizing: border-box;
+	height: 15%;
+	width: 100%;
+	font-style: normal;
+	font-size: 20px;
+	
+/* 	background: #808080;
+ */}
+
+#list {
+	box-sizing: border-box;
+/* 	position:absolute;
+ */	height: 70%;
+	width: 100%;
+	padding-left: 50%；
+	/* background: #808040; */
+}
+
+#foot{
+	box-sizing: border-box;
+	height:10%;
+	width:100%;
+}
